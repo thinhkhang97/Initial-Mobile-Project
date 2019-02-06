@@ -1,3 +1,41 @@
 {
-    "extends": "airbnb"
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "plugins": ["react-native"],
+    "rules": {
+        "import/no-unresolved": 0,
+        "no-console": 2,
+        "no-return-assign": 0,
+        "padded-blocks": 0,
+        "object-curly-newline": 0,
+        "max-len": ["error", 120],
+        "quotes": [
+          "error",
+          "single",
+          {
+            "avoidEscape": true
+          }
+        ],
+        "indent": ["error", 4],
+        "object-curly-spacing": 0,
+        "no-use-before-define": 0,
+        "new-cap": 0,
+        "arrow-parens": 0,
+        "no-underscore-dangle": 0,
+        "comma-dangle": ["error", "never"],
+        "import/prefer-default-export": 0,
+        "import/no-duplicates": 2,
+        "react/sort-comp": 0,
+        "react/no-array-index-key": 0,
+        "react/jsx-filename-extension": [
+          2,
+          {
+            "extensions": [".js", ".jsx"]
+          }
+        ],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
+        "react-native/no-unused-styles": 2,
+        "react-native/split-platform-components": 2
+    }
 }
