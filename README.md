@@ -18,7 +18,8 @@ With ios:
 ```
 react-native run-ios
 ```
-## Isues
-- ### Flow extension version in vscode is not match with *.flowconfig*
-- Make sure you installed all packages in *package.json* or redo step 1.
-- Reload VSCode.
+## FAQ
+  **Question 1: Flow extension version in vscode is not match with *.flowconfig*.**
+  <br />
+  - Make sure you installed all packages in *package.json* or redo step 1.
+  - Reload VSCode.
