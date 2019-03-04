@@ -6,4 +6,5 @@
     "eslint.autoFixOnSave": true,
     "javascript.validate.enable": false,
     "flow.useNPMPackagedFlow": true,
+    "prettier.eslintIntegration": true
 }
