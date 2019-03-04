@@ -9,6 +9,7 @@
     "flow-stop": "flow stop"
   },
   "dependencies": {
+    "@babel/preset-flow": "^7.0.0",
     "react": "16.6.3",
     "react-native": "0.58.3"
   },
@@ -16,6 +17,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "24.1.0",
+    "babel-preset-flow": "^6.23.0",
     "babel-preset-react-native": "^4.0.1",
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
