@@ -7,4 +7,5 @@ This is initial mobile project with react native, flow, eslint, prettier
 ```
 yarn install
 ```
-- ### Step 2: Open *.vscode/extensions.json* and install all of them
+- ### Step 2: Install all extensions
+Open *.vscode/extensions.json* and install all extensions
