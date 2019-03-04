@@ -1,0 +1,9 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "javascript.validate.enable": false,
+    "flow.useNPMPackagedFlow": true,
+}
