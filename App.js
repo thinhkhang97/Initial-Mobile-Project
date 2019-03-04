@@ -1,13 +1,6 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- * @lint-ignore-every XPLATJSCOPYRIGHT1
- */
+// @flow
 
-import React, {Component} from 'react';
+import * as React from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
 const instructions = Platform.select({
@@ -17,9 +10,9 @@ const instructions = Platform.select({
     + 'Shake or press menu button for dev menu'
 });
 
-type Props = {};
-export default class App extends Component<Props> {
-    render() {
+type PropsType = {};
+export default class App extends React.Component<PropsType> {
+    render(): React.Node {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to React Native with eslint, flow, prettier!</Text>
